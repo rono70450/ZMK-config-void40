@@ -19,7 +19,5 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: pancake
-include:
-  - board: nice_nano_v2
-    shield: pancake
+    shield: void 40
+
