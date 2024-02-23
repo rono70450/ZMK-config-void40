@@ -3,6 +3,4 @@ if SHIELD_VOID40
 config ZMK_KEYBOARD_NAME
     default "void40"
 
-CONFIG_GPIO=y
-
 endif
