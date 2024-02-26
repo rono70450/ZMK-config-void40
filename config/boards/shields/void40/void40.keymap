@@ -46,10 +46,9 @@
                 &trans      &trans    &trans    &trans    &trans    &trans    &trans      &trans      &trans      &trans      &trans      &trans
                 &out OUT_BLE    &out OUT_USB    &out OUT_TOG    &trans          &trans          &trans          &trans      &trans      &trans      &trans      &trans
             >;
-        };
 
         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-    };
+            };
 
      &left_encoder {
     status = "okay";
