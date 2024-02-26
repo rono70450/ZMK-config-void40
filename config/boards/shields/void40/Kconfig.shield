@@ -1,2 +1,7 @@
 config SHIELD_VOID40
-    def_bool $(shields_list_contains, void40)
+    def_bool $(shields_list_contains,void40)
+};
+
+&left_encoder {
+status = "okay";
+};
