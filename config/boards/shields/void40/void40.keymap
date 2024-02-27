@@ -19,6 +19,8 @@
                 &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp SLASH   &kp ENTER
                 &kp LCTRL   &kp FNC       &kp LEFT_WIN    &kp LALT    &mo LWR    &kp SPACE      &mo RSE     &kp LEFT    &kp DOWN     &kp UP    &kp RIGHT  
             >;
+
+             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
@@ -46,8 +48,6 @@
                 &trans      &trans    &trans    &trans    &trans    &trans    &trans      &trans      &trans      &trans      &trans      &trans
                 &out OUT_BLE    &out OUT_USB    &out OUT_TOG    &trans          &trans          &trans          &trans      &trans      &trans      &trans      &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
