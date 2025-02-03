@@ -42,7 +42,7 @@
                 &trans      &trans      &trans      &trans      &trans      &kp C_PLAY_PAUSE     &trans      &trans        &kp C_VOL_UP      &kp C_VOL_DN    &trans
             >;
 
-             sensor-bindings = <&inc_dec_kp DOWN UP>;
+             sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
         function_layer {
