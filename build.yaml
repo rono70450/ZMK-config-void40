@@ -19,5 +19,5 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: SETTINGS_RESET
+    shield: settings_reset
     
