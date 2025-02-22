@@ -6,5 +6,8 @@ config ZMK_KEYBOARD_NAME
 config BT_DEVICE_NAME
     default ZMK_KEYBOARD_NAME
 
+CONFIG_ZMK_KEYBOARD_NAME="
+KIRBY"
+
 endif
 
