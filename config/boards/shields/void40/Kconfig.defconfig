@@ -1,7 +1,7 @@
 if SHIELD_VOID40
 
 config ZMK_KEYBOARD_NAME
-    string "KIRBY"
+    string KIRBY
 
 config BT_DEVICE_NAME
     default ZMK_KEYBOARD_NAME
